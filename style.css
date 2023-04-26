@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: #e1e8eb;
+}
+
+.background{
+    position: absolute;
+    z-index: -1;
+    height: 254px;
+    width: 100%;
+    background-image: linear-gradient(
+        to right,
+         rgba(101, 01, 163, 0.9), 
+         rgba(24, 120, 175, 0.9)
+         ), url('https://images.unsplash.com/photo-1682001426601-c7fdc9ea5b4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
+        background-position: 1px;
+        }
